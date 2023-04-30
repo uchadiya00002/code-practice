@@ -15,7 +15,6 @@ const checkPrime = (n) => {
 // Big O --O(n)
 
 // Using Math.sqrt method
-
 const checkPrimeNumber = (n) => {
   if (n < 2) {
     return false;
