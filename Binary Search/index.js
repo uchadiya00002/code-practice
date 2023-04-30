@@ -5,6 +5,7 @@ const binarySearch = (arr, target) => {
 
   while (leftIndex <= rightIndex) {
     let middleIndex = Math.floor((leftIndex + rightIndex) / 2);
+    console.log(middleIndex);
     if (target == arr[middleIndex]) {
       return middleIndex;
     }
@@ -18,4 +19,4 @@ const binarySearch = (arr, target) => {
 };
 
 // Big O  O (log n) because we reduce value half each time
-console.log(binarySearch([-5, 2, 3, 4, 5, 8], 5));
+console.log(binarySearch([2, 4, 6, 8, 10], 4));
